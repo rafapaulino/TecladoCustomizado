@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A10820B1615D76400B22EFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A10820A1615D76400B22EFE /* UIKit.framework */; };
+		6A10820D1615D76400B22EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A10820C1615D76400B22EFE /* Foundation.framework */; };
+		6A10820F1615D76400B22EFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A10820E1615D76400B22EFE /* CoreGraphics.framework */; };
+		6A1082151615D76400B22EFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1082131615D76400B22EFE /* InfoPlist.strings */; };
+		6A1082171615D76400B22EFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1082161615D76400B22EFE /* main.m */; };
+		6A10821B1615D76400B22EFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A10821A1615D76400B22EFE /* AppDelegate.m */; };
+		6A10821E1615D76400B22EFE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A10821C1615D76400B22EFE /* MainStoryboard.storyboard */; };
+		6A1082211615D76400B22EFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1082201615D76400B22EFE /* ViewController.m */; };
+		6A1082291615D76400B22EFE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1082281615D76400B22EFE /* SenTestingKit.framework */; };
+		6A10822A1615D76400B22EFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A10820A1615D76400B22EFE /* UIKit.framework */; };
+		6A10822B1615D76400B22EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A10820C1615D76400B22EFE /* Foundation.framework */; };
+		6A1082331615D76400B22EFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1082311615D76400B22EFE /* InfoPlist.strings */; };
+		6A1082361615D76400B22EFE /* TecladoCustomizadoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1082351615D76400B22EFE /* TecladoCustomizadoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A10822C1615D76400B22EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1081FD1615D76400B22EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A1082051615D76400B22EFE;
+			remoteInfo = TecladoCustomizado;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A1082061615D76400B22EFE /* TecladoCustomizado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TecladoCustomizado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A10820A1615D76400B22EFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A10820C1615D76400B22EFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A10820E1615D76400B22EFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A1082121615D76400B22EFE /* TecladoCustomizado-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TecladoCustomizado-Info.plist"; sourceTree = "<group>"; };
+		6A1082141615D76400B22EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A1082161615D76400B22EFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A1082181615D76400B22EFE /* TecladoCustomizado-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TecladoCustomizado-Prefix.pch"; sourceTree = "<group>"; };
+		6A1082191615D76400B22EFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A10821A1615D76400B22EFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A10821D1615D76400B22EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6A10821F1615D76400B22EFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A1082201615D76400B22EFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A1082271615D76400B22EFE /* TecladoCustomizadoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TecladoCustomizadoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1082281615D76400B22EFE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A1082301615D76400B22EFE /* TecladoCustomizadoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TecladoCustomizadoTests-Info.plist"; sourceTree = "<group>"; };
+		6A1082321615D76400B22EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A1082341615D76400B22EFE /* TecladoCustomizadoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TecladoCustomizadoTests.h; sourceTree = "<group>"; };
+		6A1082351615D76400B22EFE /* TecladoCustomizadoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TecladoCustomizadoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A1082031615D76400B22EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A10820B1615D76400B22EFE /* UIKit.framework in Frameworks */,
+				6A10820D1615D76400B22EFE /* Foundation.framework in Frameworks */,
+				6A10820F1615D76400B22EFE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1082231615D76400B22EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1082291615D76400B22EFE /* SenTestingKit.framework in Frameworks */,
+				6A10822A1615D76400B22EFE /* UIKit.framework in Frameworks */,
+				6A10822B1615D76400B22EFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A1081FB1615D76400B22EFE = {
+			isa = PBXGroup;
+			children = (
+				6A1082101615D76400B22EFE /* TecladoCustomizado */,
+				6A10822E1615D76400B22EFE /* TecladoCustomizadoTests */,
+				6A1082091615D76400B22EFE /* Frameworks */,
+				6A1082071615D76400B22EFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A1082071615D76400B22EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A1082061615D76400B22EFE /* TecladoCustomizado.app */,
+				6A1082271615D76400B22EFE /* TecladoCustomizadoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A1082091615D76400B22EFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A10820A1615D76400B22EFE /* UIKit.framework */,
+				6A10820C1615D76400B22EFE /* Foundation.framework */,
+				6A10820E1615D76400B22EFE /* CoreGraphics.framework */,
+				6A1082281615D76400B22EFE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A1082101615D76400B22EFE /* TecladoCustomizado */ = {
+			isa = PBXGroup;
+			children = (
+				6A1082191615D76400B22EFE /* AppDelegate.h */,
+				6A10821A1615D76400B22EFE /* AppDelegate.m */,
+				6A10821C1615D76400B22EFE /* MainStoryboard.storyboard */,
+				6A10821F1615D76400B22EFE /* ViewController.h */,
+				6A1082201615D76400B22EFE /* ViewController.m */,
+				6A1082111615D76400B22EFE /* Supporting Files */,
+			);
+			path = TecladoCustomizado;
+			sourceTree = "<group>";
+		};
+		6A1082111615D76400B22EFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A1082121615D76400B22EFE /* TecladoCustomizado-Info.plist */,
+				6A1082131615D76400B22EFE /* InfoPlist.strings */,
+				6A1082161615D76400B22EFE /* main.m */,
+				6A1082181615D76400B22EFE /* TecladoCustomizado-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A10822E1615D76400B22EFE /* TecladoCustomizadoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A1082341615D76400B22EFE /* TecladoCustomizadoTests.h */,
+				6A1082351615D76400B22EFE /* TecladoCustomizadoTests.m */,
+				6A10822F1615D76400B22EFE /* Supporting Files */,
+			);
+			path = TecladoCustomizadoTests;
+			sourceTree = "<group>";
+		};
+		6A10822F1615D76400B22EFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A1082301615D76400B22EFE /* TecladoCustomizadoTests-Info.plist */,
+				6A1082311615D76400B22EFE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A1082051615D76400B22EFE /* TecladoCustomizado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1082391615D76400B22EFE /* Build configuration list for PBXNativeTarget "TecladoCustomizado" */;
+			buildPhases = (
+				6A1082021615D76400B22EFE /* Sources */,
+				6A1082031615D76400B22EFE /* Frameworks */,
+				6A1082041615D76400B22EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TecladoCustomizado;
+			productName = TecladoCustomizado;
+			productReference = 6A1082061615D76400B22EFE /* TecladoCustomizado.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A1082261615D76400B22EFE /* TecladoCustomizadoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A10823C1615D76400B22EFE /* Build configuration list for PBXNativeTarget "TecladoCustomizadoTests" */;
+			buildPhases = (
+				6A1082221615D76400B22EFE /* Sources */,
+				6A1082231615D76400B22EFE /* Frameworks */,
+				6A1082241615D76400B22EFE /* Resources */,
+				6A1082251615D76400B22EFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A10822D1615D76400B22EFE /* PBXTargetDependency */,
+			);
+			name = TecladoCustomizadoTests;
+			productName = TecladoCustomizadoTests;
+			productReference = 6A1082271615D76400B22EFE /* TecladoCustomizadoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A1081FD1615D76400B22EFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = rafapaulino.com;
+			};
+			buildConfigurationList = 6A1082001615D76400B22EFE /* Build configuration list for PBXProject "TecladoCustomizado" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A1081FB1615D76400B22EFE;
+			productRefGroup = 6A1082071615D76400B22EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A1082051615D76400B22EFE /* TecladoCustomizado */,
+				6A1082261615D76400B22EFE /* TecladoCustomizadoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A1082041615D76400B22EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1082151615D76400B22EFE /* InfoPlist.strings in Resources */,
+				6A10821E1615D76400B22EFE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1082241615D76400B22EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1082331615D76400B22EFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A1082251615D76400B22EFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A1082021615D76400B22EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1082171615D76400B22EFE /* main.m in Sources */,
+				6A10821B1615D76400B22EFE /* AppDelegate.m in Sources */,
+				6A1082211615D76400B22EFE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1082221615D76400B22EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1082361615D76400B22EFE /* TecladoCustomizadoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A10822D1615D76400B22EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A1082051615D76400B22EFE /* TecladoCustomizado */;
+			targetProxy = 6A10822C1615D76400B22EFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A1082131615D76400B22EFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A1082141615D76400B22EFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A10821C1615D76400B22EFE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A10821D1615D76400B22EFE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6A1082311615D76400B22EFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A1082321615D76400B22EFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A1082371615D76400B22EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A1082381615D76400B22EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A10823A1615D76400B22EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TecladoCustomizado/TecladoCustomizado-Prefix.pch";
+				INFOPLIST_FILE = "TecladoCustomizado/TecladoCustomizado-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A10823B1615D76400B22EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TecladoCustomizado/TecladoCustomizado-Prefix.pch";
+				INFOPLIST_FILE = "TecladoCustomizado/TecladoCustomizado-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A10823D1615D76400B22EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TecladoCustomizado.app/TecladoCustomizado";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TecladoCustomizado/TecladoCustomizado-Prefix.pch";
+				INFOPLIST_FILE = "TecladoCustomizadoTests/TecladoCustomizadoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A10823E1615D76400B22EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TecladoCustomizado.app/TecladoCustomizado";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TecladoCustomizado/TecladoCustomizado-Prefix.pch";
+				INFOPLIST_FILE = "TecladoCustomizadoTests/TecladoCustomizadoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A1082001615D76400B22EFE /* Build configuration list for PBXProject "TecladoCustomizado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1082371615D76400B22EFE /* Debug */,
+				6A1082381615D76400B22EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A1082391615D76400B22EFE /* Build configuration list for PBXNativeTarget "TecladoCustomizado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A10823A1615D76400B22EFE /* Debug */,
+				6A10823B1615D76400B22EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A10823C1615D76400B22EFE /* Build configuration list for PBXNativeTarget "TecladoCustomizadoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A10823D1615D76400B22EFE /* Debug */,
+				6A10823E1615D76400B22EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A1081FD1615D76400B22EFE /* Project object */;
+}

@@ -20,6 +20,7 @@
 		6A10822B1615D76400B22EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A10820C1615D76400B22EFE /* Foundation.framework */; };
 		6A1082331615D76400B22EFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1082311615D76400B22EFE /* InfoPlist.strings */; };
 		6A1082361615D76400B22EFE /* TecladoCustomizadoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1082351615D76400B22EFE /* TecladoCustomizadoTests.m */; };
+		6A1082411615D8B300B22EFE /* TecladoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1082401615D8B300B22EFE /* TecladoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		6A1082321615D76400B22EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A1082341615D76400B22EFE /* TecladoCustomizadoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TecladoCustomizadoTests.h; sourceTree = "<group>"; };
 		6A1082351615D76400B22EFE /* TecladoCustomizadoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TecladoCustomizadoTests.m; sourceTree = "<group>"; };
+		6A10823F1615D8B300B22EFE /* TecladoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TecladoViewController.h; sourceTree = "<group>"; };
+		6A1082401615D8B300B22EFE /* TecladoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TecladoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				6A10821F1615D76400B22EFE /* ViewController.h */,
 				6A1082201615D76400B22EFE /* ViewController.m */,
 				6A1082111615D76400B22EFE /* Supporting Files */,
+				6A10823F1615D8B300B22EFE /* TecladoViewController.h */,
+				6A1082401615D8B300B22EFE /* TecladoViewController.m */,
 			);
 			path = TecladoCustomizado;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 				6A1082171615D76400B22EFE /* main.m in Sources */,
 				6A10821B1615D76400B22EFE /* AppDelegate.m in Sources */,
 				6A1082211615D76400B22EFE /* ViewController.m in Sources */,
+				6A1082411615D8B300B22EFE /* TecladoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

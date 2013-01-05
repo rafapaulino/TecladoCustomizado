@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate>
 
+@property (weak, nonatomic) IBOutlet UITextField *textFieldVitima;
+@property (weak, nonatomic) IBOutlet UITextView *textViewVitima;
+@property (weak, nonatomic) IBOutlet UITextField *textFieldVitima2;
+
+@property (weak, nonatomic) IBOutlet UITextField *TextFieldVitima3;
 @end
